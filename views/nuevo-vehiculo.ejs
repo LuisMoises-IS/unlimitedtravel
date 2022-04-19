@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Profile</title>
+  <link rel="stylesheet" href="/css/base1.css">
+  <link rel="stylesheet" href="/css/profiles.css">
+  <script src="/js/file-preview.js" defer></script>
+</head>
+
+<body>
+  <main id="nuevo vehiculo">
+    <div style="text-align: center;">
+      <h1>Registra la informacion del vehiculo</h1>
+    </div>
+    <form action="/vehiculos" method="POST" enctype="multipart/form-data">
+      <div class="form-control">
+        <label for="marca">Marca</label>
+        <input type="text" id="marca" name="marca" required>
+      </div>
+      <div class="form-control">
+        <label for="modelo">Modelo</label>
+        <input type="text" id="modelo" name="modelo" required>
+      </div>
+      <div class="form-control">
+        <label for="precio">Precio</label>
+        <input type="number" id="precio" name="precio" max="200" min="0" required>
+      </div>
+      <div class="form-control">
+        <label for="tipo">Tipo de vehiculo</label>
+        <input type="text" id="tipo" name="tipo" required>
+      </div>
+      <div class="form-control">
+        <label for="pasajeros">Pasajeros</label>
+        <input type="number" id="pasajeros" name="pasajeros" max="50" min="0" required>
+      </div>
+      <div class="form-control">
+        <label for="unidades">Unidades</label>
+        <input type="number" id="unidades" name="unidades" max="50" min="0" required>
+      </div>
+      <div class="form-control">
+        <label for="sucursal">Sucursal</label>
+        <input type="text" id="sucursal" name="sucursal" required>
+      </div>
+
+      <div class="form-control">
+        <label for="image">Foto</label>
+        <input type="file" id="image" name="image" required accept=".jpeg, .jpg, .png">
+        <img id="image-preview" src="" alt="Your picked image.">
+      </div>
+      <button class="btn">Guardar vehiculo</button>
+    </form>
+  </main>
+</body>
+
+</html>

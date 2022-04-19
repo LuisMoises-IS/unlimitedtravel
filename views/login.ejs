@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.88.1">
+  <title>Unlimited travel - Log In</title>
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="css/signin.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+
+  <main class="form-signin text-center shadow-lg" id="signup">
+    <form id="formLogin" action="/login" method="POST">
+      <!--<img class="mb-4" src="img/bootstrap-logo.svg" alt="" width="72" height="57">-->
+      <div style="height: 100px; width: 100px; margin-right: auto; margin-left: auto;">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 172 172"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g><path d="M96.75,50.16667h-7.16667v-23.29167l1.43333,-1.075c0.71667,-0.71667 18.99167,-13.61667 64.85833,10.39167l-3.225,6.45c-34.4,-17.91667 -51.24167,-13.975 -55.9,-11.825zM82.41667,50.16667h-7.16667v-19.35c-4.65833,-2.15 -21.5,-6.09167 -55.54167,11.825l-3.225,-6.45c45.50833,-24.00833 63.78333,-11.10833 64.5,-10.39167l1.43333,1.075zM43,121.83333c0,-2.15 -1.43333,-3.58333 -3.58333,-3.58333h-14.33333c-2.15,0 -3.58333,1.43333 -3.58333,3.58333v21.5c0,2.15 1.43333,3.58333 3.58333,3.58333h14.33333c2.15,0 3.58333,-1.43333 3.58333,-3.58333zM150.5,121.83333c0,-2.15 -1.43333,-3.58333 -3.58333,-3.58333h-14.33333c-2.15,0 -3.58333,1.43333 -3.58333,3.58333v21.5c0,2.15 1.43333,3.58333 3.58333,3.58333h14.33333c2.15,0 3.58333,-1.43333 3.58333,-3.58333z" fill="#000000"></path><path d="M132.58333,71.66667c0,0 1.075,-3.58333 3.58333,-3.58333c2.50833,0 10.75,0.71667 10.75,3.58333v4.3c0,1.43333 -1.43333,2.86667 -2.86667,2.86667h-11.46667zM39.41667,71.66667c0,0 -1.075,-3.58333 -3.58333,-3.58333c-2.50833,0 -10.75,0.71667 -10.75,3.58333v4.3c0,1.43333 1.43333,2.86667 2.86667,2.86667h11.46667z" fill="#157347"></path><path d="M136.16667,78.83333l-7.16667,-21.5c-2.50833,-6.09167 -7.525,-7.88333 -14.33333,-8.95833c-7.16667,-1.075 -17.2,-1.79167 -28.66667,-1.79167c-11.46667,0 -21.85833,1.075 -28.66667,1.79167c-6.45,0.71667 -11.46667,2.86667 -14.33333,8.95833l-7.16667,21.5c0,0 -14.33333,6.45 -14.33333,21.5v29.025c0,1.79167 1.43333,3.225 3.225,3.58333c7.16667,1.075 27.59167,3.225 61.275,3.225c33.68333,0 54.10833,-2.15 61.275,-3.225c1.79167,-0.35833 3.225,-1.79167 3.225,-3.58333v-29.025c0,-15.05 -14.33333,-21.5 -14.33333,-21.5z" fill="#157347"></path><path d="M114.30833,122.19167c-2.15,-2.50833 -5.01667,-3.94167 -8.24167,-3.94167h-40.13333c-3.225,0 -6.45,1.43333 -8.24167,3.94167l-10.39167,12.9c10.03333,0.71667 22.93333,1.075 38.7,1.075c15.76667,0 28.66667,-0.35833 38.7,-1.075z" fill="#000000"></path><path d="M118.25,93.16667l8.95833,6.09167c1.075,0.71667 2.50833,1.075 3.94167,1.075h11.825c2.50833,0 3.94167,-2.15 3.58333,-4.65833c-0.71667,-2.50833 -1.79167,-4.3 -2.86667,-6.09167c-11.825,0.71667 -25.44167,3.58333 -25.44167,3.58333zM53.75,93.16667l-8.95833,6.09167c-1.075,0.71667 -2.50833,1.075 -3.94167,1.075h-11.825c-2.50833,0 -3.94167,-2.15 -3.58333,-4.65833c0.71667,-2.15 1.79167,-4.3 3.225,-6.09167c11.46667,0.71667 25.08333,3.58333 25.08333,3.58333z" fill="#ffffff"></path><path d="M86,93.16667c0,0 -23.29167,0 -28.66667,3.58333c0,0 20.425,0 23.29167,1.43333c2.86667,1.075 5.375,5.73333 5.375,5.73333c0,0 2.50833,-4.65833 5.375,-5.73333c2.86667,-1.43333 23.29167,-1.43333 23.29167,-1.43333c-5.375,-3.58333 -28.66667,-3.58333 -28.66667,-3.58333zM128.64167,78.83333l-6.45,-18.99167c-0.71667,-1.79167 -2.15,-3.58333 -8.6,-4.3c-6.09167,-0.71667 -16.125,-1.79167 -27.59167,-1.79167c-11.46667,0 -21.5,1.075 -27.95,1.79167c-6.09167,0.71667 -7.525,2.50833 -8.6,4.3l-6.09167,18.99167z" fill="#37474f"></path><path d="M28.66667,114.66667v5.01667c0,3.58333 2.86667,6.80833 6.45,7.16667c2.15,0.35833 5.01667,0.35833 7.88333,0.71667v-10.39167zM143.33333,114.66667v5.01667c0,3.58333 -2.86667,6.80833 -6.45,7.16667c-2.15,0.35833 -5.01667,0.35833 -7.88333,0.71667v-10.39167z" fill="#1e88e5"></path></g></g></svg>
+      </div>
+      <h1 class="h3 mb-3 fw-normal">Log in</h1>
+
+      <% if (inputData.hasError) { %>
+        <p id="input-error">
+          <%= inputData.message %>
+        </p>
+        <% } %>
+
+          <div class="form-floating">
+            <input type="email" class="form-control" id="email" name="email" value="<%= inputData.email %>" required>
+            <label for="correo">Correo</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="password" name="password" value="<%= inputData.password %>"
+              required>
+            <label for="pass">Password</label>
+          </div>
+
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-success" type="submit">Log in</button>
+    </form>
+    <br>
+    <a href="/signup" type="button" class="w-100 btn btn-lg btn-success">Registrarse</a>
+
+    <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
+  </main>
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+</body>
+
+</html>
